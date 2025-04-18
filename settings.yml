@@ -1,0 +1,11 @@
+---
+strategy: polling
+no_screen_padding: 'no'
+dark_mode: 'no'
+static_data: ''
+polling_verb: get
+polling_url: https://v2.jokeapi.dev/joke/Any
+polling_headers: ''
+id: 35548
+name: JokeAPI
+refresh_interval: 360

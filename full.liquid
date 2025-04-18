@@ -1,0 +1,20 @@
+<div class="layout layout--center">
+  <div class="layout layout--col">
+     <img class="image-dither" src="https://upload.wikimedia.org/wikipedia/commons/8/85/Smiley.svg" style="display: block; margin: 0 auto; max-width: 20%; height: auto; border-radius: 5px;
+      <p class="value">Joke</p>
+      {% if type == "single" %}
+        <p class="value--small">{{joke}}</p>
+        {% elsif type == "twopart" %}
+      <p class="value--small">{{setup}}</p>
+      <p class="value--small">{{delivery}}</p>
+     {% else %}
+      <p class="value--small">Couldn't fetch a joke at the moment</p>
+     {% endif %}
+  </div>
+</div>
+
+<div class="title_bar">
+  <img class="image" src="https://upload.wikimedia.org/wikipedia/commons/8/85/Smiley.svg" />
+  <span class="title">Joke API</span>
+  <span class="instance">stevekennedyuk</span>
+</div>
